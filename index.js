@@ -29,7 +29,7 @@ const personalMovieDB = {
     privat: false,
 };
 
-console.log(personalMovieDB);
+
 
 let a = prompt('Один из последних просмотренных фильмов?',' '),
     b = prompt('На сколько оцените его?',' '),
@@ -38,3 +38,5 @@ let a = prompt('Один из последних просмотренных фи
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
