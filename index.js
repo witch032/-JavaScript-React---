@@ -17,7 +17,7 @@
     }
 Проверить, чтобы все работало без ошибок в консоли */
 
-let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?',' '); 
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?',' '); 
 
 console.log(numberOfFilms);
 
@@ -27,7 +27,7 @@ const personalMovieDB = {
     actors: {} ,
     genres: [] ,
     privat: false,
-}
+};
 
 console.log(personalMovieDB);
 
